@@ -1,0 +1,83 @@
+#include<iostream>
+#include<string>
+
+
+
+
+int main()
+{
+	int num = 1900;
+	while(num != -1)
+	{
+		std::cin >> num;
+		std::cout << num << std::endl << num % 12 << std::endl;
+	
+		switch (num %12)
+		{
+		case(0):
+			std::cout << "Eres del a" << char(164) << "o del mono " << std::endl;
+			break;
+		case(1):
+			std::cout << "Eres del a" << char(164) << "o del Gallo" << std::endl;
+			break;
+		case(2):
+			std::cout << "Eres del a" << char(164) << "o del perro" << std::endl;
+			break;
+		case(3):
+			std::cout << "Eres del a" << char(164) << "o del Buey " << std::endl;
+			break;
+		case(4):
+			std::cout << "Eres del a" << char(164) << "o de la rata " << std::endl;
+			break;
+		case(5):
+			std::cout << "Eres del a" << char(164) << "o del buey " << std::endl;
+			break;
+		case(6):
+			std::cout << "Eres del a" << char(164) << "o del Tigre"<<std::endl;
+			break;
+		case(7):
+			std::cout << "Eres del a" << char(164) << "o del gato " << std::endl;
+			break;
+		case(8):
+			std::cout << "Eres del a" << char(164) << "o del dragon" << std::endl;
+			break;
+		case(9):
+			std::cout << "Eres del a" << char(164) << "o del serpiente " << std::endl;
+			break;
+		case(10):
+			std::cout<<"Eres del a"<<char (164) <<"o del caballo " << std::endl;
+			break;
+		case(11):
+			std::cout << "Eres del a" << char(164) << "o de la cabra " << std::endl;
+			break;
+		default:
+			break;
+		}
+
+	}
+
+	return 0;
+}
+
+
+
+/*
+	
+	Gallo = 1  [1909]
+	Perro = 2  [1910]
+	jabali = 3  [1911]
+	
+	
+	rata = 4  [1900]
+	Buey = 5  [1901] 
+	Tigre = 6  [1902] 
+	gato = 7  [1903] 
+	dragon = 8  [1904]
+	serpiente = 9  [1905] 
+	caballo = 10  [1906] 
+	cabra = 11   [1907] 
+	mono = 0   [1908]
+
+
+
+*/
